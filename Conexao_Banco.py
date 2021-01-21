@@ -15,8 +15,8 @@ def retornar_conexao_sql():
 #Variável de Cursor
 cursor = retornar_conexao_sql()
 
-# Seleção de Teste
-cursor.execute("FAZER O SELECT DESEJADO")
+# Seleção de Dados no Banco
+cursor.execute("FAZER O SELECT DESEJADO NO BANCO")
 row = cursor.fetchone()
 if row:
     print(row)
