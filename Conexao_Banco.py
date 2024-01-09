@@ -20,3 +20,5 @@ cursor.execute("FAZER O SELECT DESEJADO NO BANCO")
 row = cursor.fetchone()
 if row:
     print(row)
+
+# teste
